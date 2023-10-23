@@ -1,3 +1,5 @@
+package leetcode
+
 func maximumScore(nums []int, k int) int {
     l, r := k, k
     res, curMin := nums[k], nums[k]
