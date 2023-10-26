@@ -1,3 +1,5 @@
+package leetcode
+
 func myAtoi(s string) int {
     start := false
     flag := 1
