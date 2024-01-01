@@ -2,6 +2,7 @@ package leetcode
 
 func interpret(command string) string {
 	var res string
+	
 	l := len(command)
 
 	for i := 0; i < l; i++ {
